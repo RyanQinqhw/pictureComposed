@@ -4,7 +4,7 @@
 //
 //  Created by 明镜止水 on 17/1/19.
 //  Copyright © 2017年 明镜止水. All rights reserved.
-//
+//  简单点,说话的方式简单点
 
 #import "AppDelegate.h"
 
