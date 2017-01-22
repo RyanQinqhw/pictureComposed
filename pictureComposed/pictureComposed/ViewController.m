@@ -25,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
-    [self composeImg:self.imagView.bounds.size andPictures:self.imageArr andColums:2.0];
+    [self composeImg:self.imagView.bounds.size andPictures:self.imageArr andColums:5.0];
     
     
     CGRect rect = CGRectMake(100, 100, 80, 80);
@@ -221,8 +221,8 @@ andCurrentGestureState:(UIGestureRecognizerState)state
         UIImage *image8 = [UIImage imageNamed:@"settleClaimsSer"];
         UIImage *image9 = [UIImage imageNamed:@"QRScan_hightLight"];
     
-//        _imageArr = [NSMutableArray arrayWithObjects:image0,image1,image2,image3,image4,image5,image6,image7,image8,image9, nil];
-        _imageArr = [NSMutableArray arrayWithObjects:image0, nil];
+        _imageArr = [NSMutableArray arrayWithObjects:image0,image1,image2,image3,image4,image5,image6,image7,image8,image9, nil];
+//        _imageArr = [NSMutableArray arrayWithObjects:image0, nil];
     }
     
     
