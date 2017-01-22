@@ -53,6 +53,7 @@
    
 }
 
+#pragma mark - 添加手势
 -(void)panImage:(UIPanGestureRecognizer *)rec{
     
     CGFloat KWidth = [UIScreen mainScreen].bounds.size.width;
